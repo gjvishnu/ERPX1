@@ -1,3 +1,16 @@
+::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Color of the scrollbar track */
+  }
+  ::-webkit-scrollbar {
+    width: 2px; /* Width of the scrollbar */
+  }
+  
+  /* Color */
+  ::-webkit-scrollbar-thumb {
+    background:linear-gradient(43deg, #4158D0 0%, #c850c0 46%,#ffcc70 100%);
+    border-radius: 10px;/* Color of the scrollbar thumb */
+  }
+
 .mainMenu{
     width: 115px;
 }
@@ -7,3 +20,80 @@
 .clrP{
     color: #4D3DF6;
 }
+.megTxt{
+    color: #4D3DF6;
+}
+.msgSVG{
+    color: #4D3DF6;
+}
+.msgDiv :hover .megTxt{
+color: white;
+}
+.msgDiv :hover .msgSVG{
+    color: white;
+    }
+    .sec{
+        color : #847eff;
+    }
+
+    .postsMain{
+    height: 665px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    }
+    .video-container {
+         width: 110px;
+        height: 140px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        position: relative;
+        }
+      
+      .video-background {        
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       }
+.stoireMain{
+ width: 100%;
+ height: 145px;
+ overflow-x: scroll; 
+ position: relative;
+}
+ 
+.stoireMain::-webkit-scrollbar {
+  height: 2px;  
+  width: 2px;  
+}
+
+.stoireMain::-webkit-scrollbar-thumb {
+  background:linear-gradient(43deg, #4158D0 0%, #c850c0 46%,#ffcc70 100%);
+  border-radius: 10px; /* Color of the scrollbar thumb */
+}
+.storyName{
+  position: absolute;
+  bottom: 10px;
+  left: 24px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.sugMain{
+  height: 265px;
+  overflow-y: scroll;
+}
+.lnkOne{
+color: #4158D0;;
+}
+.lnkOne:hover{
+   background-color: #4158D0;
+   color: white;
+}
+.Linksactive{
+  background-color: #4158D0;
+   color: white;
+}
+.headerInpt{
+  width: 230px;
+  outline: none; 
+}  
+
